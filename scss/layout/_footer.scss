@@ -34,6 +34,11 @@ footer {
       justify-content: center;
       align-items: center;
       margin-bottom: 46px;
+      transition: 1s ease;
+      &:hover {
+        background-color: $main-bg-grayish;
+        color: #fff;
+      }
     }
   }
 
@@ -45,8 +50,6 @@ footer {
       display: flex;
       align-items: center;
       justify-content: space-between;
-
-      
     }
 
     &--left {
@@ -75,30 +78,30 @@ footer {
 
         &-link {
           text-decoration: none;
-          color:$main-bg-light-grey;
+          color: $main-bg-light-grey;
           text-transform: uppercase;
         }
       }
     }
   }
-  .right__ul{
+  .right__ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
   }
 }
 
-@media #{$media-tablet}{
+@media #{$media-tablet} {
   footer {
     width: 100%;
-  
+
     .footer__top {
       width: 100%;
       display: flex;
       justify-content: space-between;
       align-items: baseline;
       margin-bottom: 69px;
-  
+
       &--text {
         display: flex;
         width: 350px;
@@ -116,7 +119,7 @@ footer {
         color: $main-bg-grayish;
         text-transform: uppercase;
       }
-  
+
       &--btn {
         width: 202px;
         height: 48px;
@@ -125,27 +128,30 @@ footer {
         justify-content: center;
         align-items: center;
         margin-bottom: 46px;
+
+        &:hover {
+          background-color: $main-bg-grayish;
+          color: #fff;
+        }
       }
     }
-  
+
     .footer__bottom {
       background-color: $main-bg-grayish;
       display: flex;
-  
+
       &--wrapper {
         display: flex;
         align-items: center;
         justify-content: space-between;
-  
-        
       }
-  
+
       &--left {
         width: 55%;
         display: flex;
         align-items: baseline;
       }
-  
+
       &--right {
         width: 25%;
         display: flex;
@@ -155,24 +161,24 @@ footer {
       display: flex;
       width: 100%;
       align-items: center;
-  
+
       &__ul {
         width: 90%;
         display: flex;
         justify-content: space-between;
-  
+
         &--list {
           display: flex;
-  
+
           &-link {
             text-decoration: none;
-            color:$main-bg-light-grey;
+            color: $main-bg-light-grey;
             text-transform: uppercase;
           }
         }
       }
     }
-    .right__ul{
+    .right__ul {
       width: 100%;
       display: flex;
       justify-content: space-between;

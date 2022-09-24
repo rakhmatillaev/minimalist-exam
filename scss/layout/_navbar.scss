@@ -16,12 +16,17 @@
          &-link{
             color:$main-bg-grayish;
             text-decoration: none;
+            &:hover{
+               color: $main-bg-cyan;
+            }
+            &:active{
+               color: $main-bg-cyan;
+            }
          }
       }
    }
 
    .menu{
-    //   color:$main-bg-black;
       display: none;
    }
 }
@@ -46,14 +51,12 @@
          &--list{
             text-transform: uppercase;
             &-link{
-            //    color:$main-bg-dark;
                text-decoration: none;
             }
          }
       }
 
       .menu{
-        //  color:$main-bg-black;
          display: none;
       }
    }
@@ -77,14 +80,13 @@
          &--list{
             text-transform: uppercase;
             &-link{
-            //    color:$main-bg-dark;
                text-decoration: none;
             }
          }
       }
 
       .menu{
-        //  color:$main-bg-black;
+
          display: block;
          font-size: 40px;
       }
@@ -113,7 +115,6 @@
          &--list{
             text-transform: uppercase;
             &-link{
-            //    color:$main-bg-dark;
                text-decoration: none;
             }
          }
@@ -122,7 +123,6 @@
 
 
    .menu{
-    //   color:$main-bg-black;
       display: block;
       font-size: 40px;
    }
